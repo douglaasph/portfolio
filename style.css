@@ -685,13 +685,20 @@ html[data-theme="light"] .icon-moon {
   gap: 60px;
   margin-top: 44px;
   align-items: start;
-  width: 800px;
+  width: 100%;
+  max-width: 800px;
+}
+.about-copy {
+  flex: 1 1 100%;
+  min-width: 0;
 }
 .about-copy p {
   color: var(--text-dim);
   margin-bottom: 18px;
   font-size: 1.02rem;
+  overflow-wrap: break-word;
 }
+
 .about-copy strong {
   color: var(--text);
 }
@@ -732,7 +739,6 @@ html[data-theme="light"] .icon-moon {
 
 @media (max-width: 780px) {
   .about-grid {
-    grid-template-columns: 1fr;
     gap: 34px;
   }
 }

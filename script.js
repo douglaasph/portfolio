@@ -61,6 +61,8 @@ const translations = {
       "Plataforma de microsserviços orientada a eventos para cadastro de clientes, avaliação de crédito e emissão assíncrona de cartões. Cinco serviços com service discovery (Eureka) e API Gateway com validação de JWT via Keycloak (OAuth2). A emissão de cartões é processada de forma assíncrona com RabbitMQ, a comunicação síncrona usa OpenFeign e cada serviço tem seu próprio banco MySQL. Todo o ecossistema sobe com um único Docker Compose.",
     "projects.p6desc":
       "Sistema de e-commerce orientado a eventos que processa pedidos em tempo real: pagamento, faturamento e envio. Cinco microsserviços (clientes, produtos, pedidos, faturamento e logística) se comunicam por tópicos do Kafka, enquanto o serviço de pedidos orquestra o fluxo e valida dados via OpenFeign. As notas fiscais são geradas em PDF com JasperReports e guardadas no MinIO, e o status do pedido é atualizado ponta a ponta.",
+    "projects.p7desc":
+      "Classificação de arquivos executáveis como benignos ou ransomware a partir de características dos cabeçalhos PE/DLL. Análise exploratória e comparação de quatro modelos (Regressão Logística, Árvore de Decisão, Random Forest e XGBoost), com um app interativo em Streamlit para classificar registros manualmente ou em lote por CSV.",
 
     "timeline.eyebrow": "/* trajetória */ set completo",
     "timeline.title": "Minha jornada até aqui.",
@@ -141,6 +143,8 @@ const translations = {
       "Event-driven microservices platform for client registration, credit evaluation and asynchronous credit card issuance. Five services with service discovery (Eureka) and an API Gateway validating JWTs through Keycloak (OAuth2). Card issuance is processed asynchronously with RabbitMQ, synchronous calls use OpenFeign and each service has its own MySQL database. The whole ecosystem starts with a single Docker Compose.",
     "projects.p6desc":
       "Event-driven e-commerce system that processes orders in real time: payment, invoicing and shipping. Five microservices (customers, products, orders, invoicing and logistics) communicate through Kafka topics, while the orders service orchestrates the flow and validates data via OpenFeign. Invoices are generated as PDFs with JasperReports and stored in MinIO, and the order status is updated end to end.",
+    "projects.p7desc":
+      "Classification of executable files as benign or ransomware based on PE/DLL header features. Exploratory analysis and a comparison of four models (Logistic Regression, Decision Tree, Random Forest and XGBoost), with an interactive Streamlit app to classify records manually or in batch via CSV.",
 
     "timeline.eyebrow": "/* journey */ full set",
     "timeline.title": "My journey so far.",
